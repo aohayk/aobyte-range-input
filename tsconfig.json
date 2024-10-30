@@ -1,26 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "target": "es5",           // JavaScript version to output
+    "module": "commonjs",       // Module system to use
+    "outDir": "dist",           // Output folder for compiled files
+    "declaration": true,        // Generate .d.ts files for TypeScript types
+    "declarationDir": "dist",   // Place .d.ts files in the same folder
+    "sourceMap": true,          // Generate source maps (optional)
+    "jsx": "react",             // Support JSX in React components
+    "strict": true,             // Enable strict type-checking
+    "esModuleInterop": true,    // Allow ES module-style imports
+    "skipLibCheck": true        // Skip library checking to improve build speed
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
