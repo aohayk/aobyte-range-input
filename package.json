@@ -39,5 +39,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "React range input",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aohayk/aobyte-range-input.git"
+  },
+  "keywords": [
+    "range"
+  ],
+  "author": "hayk_aobyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aohayk/aobyte-range-input/issues"
+  },
+  "homepage": "https://github.com/aohayk/aobyte-range-input#readme"
 }
